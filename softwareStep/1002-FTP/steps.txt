@@ -1,0 +1,2 @@
+[root@iZ25dm0u2owZ /]# yum install vsftpd
+

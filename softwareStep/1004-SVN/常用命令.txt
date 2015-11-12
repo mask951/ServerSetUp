@@ -1,0 +1,7 @@
+验证安装版本	svnserve --version
+
+创建SVN 版本库		svnadmin create /svn/Mnemosyne
+
+启动SVN服务		svnserve -d -r /svn
+
+停止SVN服务		ps -ef|grep svn			kill -9 进程杀掉

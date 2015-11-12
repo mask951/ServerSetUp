@@ -1,0 +1,5 @@
+Æô¶¯
+/app/nexus-2.8.0-05/bin
+[root@iZ25dm0u2owZ bin]# ./nexus start
+
+

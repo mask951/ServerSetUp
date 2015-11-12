@@ -1,0 +1,7 @@
+[root@AY140507140957979d36Z /]#  cd /softwarePackage
+
+[root@AY140507140957979d36Z softwarePackage]# wget http://mirrors.cnnic.cn/apache/maven/maven-3/3.0.5/binaries/apache-maven-3.0.5-bin.tar.gz
+
+[root@AY140507140957979d36Z softwarePackage]# cp apache-maven-3.0.5-bin.tar.gz /usr/local/src/
+
+[root@AY140507140957979d36Z src]# tar -xvf apache-maven-3.0.5-bin.tar.gz 

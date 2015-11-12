@@ -1,0 +1,13 @@
+[root@iZ25dm0u2owZ /]# yum install mysql-server
+
+[root@iZ25dm0u2owZ /]# yum install mysql-devel
+
+Ìæ»»ÅäÖÃÎÄ¼þ
+
+[root@iZ25dm0u2owZ /]# /etc/init.d/mysqld start
+
+[root@iZ25dm0u2owZ /]# /etc/init.d/mysqld stop
+
+[root@iZ25dm0u2owZ /]# mysql -u root -p
+
+

@@ -1,0 +1,12 @@
+﻿#!/bin/sh
+#
+# This script will be executed *after* all the other init scripts.
+# You can put your own initialization stuff in here if you don't
+# want to do the full Sys V style init stuff.
+
+touch /var/lock/subsys/local
+/etc/init.d/mysqld start
+/data/nexus-2.8.0-05/bin/nexus start || /data/nexus-2.8.0-05/bin/nexus start
+/usr/local/bin/memcached -d -c 256 -m 32 -u root
+svnserve -d -r /data/svn
+/usr/local/nginx/nginx -c /usr/local/nginx/nginx.conf

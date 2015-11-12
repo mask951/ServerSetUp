@@ -1,0 +1,7 @@
+
+Æô¶¯
+[root@iZ25dm0u2owZ vsftpd]# service vsftpd start
+
+
+Í£Ö¹
+[root@iZ25dm0u2owZ vsftpd]# service vsftpd stop

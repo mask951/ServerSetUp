@@ -1,0 +1,60 @@
+[root@iZ25dm0u2owZ /]# cd /usr/local/src/
+
+[root@iZ25dm0u2owZ src]# cp /softwarePackage/pcre-8.34.tar.gz /usr/local/src/
+
+[root@iZ25dm0u2owZ src]# tar -zxvf pcre-8.34.tar.gz
+
+[root@iZ25dm0u2owZ src]# cd pcre-8.34
+
+[root@iZ25dm0u2owZ pcre-8.34]# ./configure
+
+[root@iZ25dm0u2owZ pcre-8.34]# make
+
+[root@iZ25dm0u2owZ pcre-8.34]# make install
+
+[root@iZ25dm0u2owZ pcre-8.34]# cd /usr/local/src/
+
+[root@iZ25dm0u2owZ src]# cp /softwarePackage/zlib-1.2.8.tar.gz /usr/local/src/
+
+[root@iZ25dm0u2owZ src]# tar -zxvf zlib-1.2.8.tar.gz
+
+[root@iZ25dm0u2owZ src]# cd zlib-1.2.8
+
+[root@iZ25dm0u2owZ zlib-1.2.8]# ./configure
+
+[root@iZ25dm0u2owZ zlib-1.2.8]# make
+
+[root@iZ25dm0u2owZ zlib-1.2.8]# make install
+
+[root@iZ25dm0u2owZ zlib-1.2.8]# cd /usr/local/src/
+
+[root@iZ25dm0u2owZ src]# cp /softwarePackage/openssl-1.0.1c.tar.gz /usr/local/src/
+
+[root@iZ25dm0u2owZ src]# tar -zxvf openssl-1.0.1c.tar.gz
+
+[root@iZ25dm0u2owZ src]# cp /softwarePackage/nginx-1.4.2.tar.gz /usr/local/src/
+
+[root@iZ25dm0u2owZ src]# tar -zxvf nginx-1.4.2.tar.gz
+
+[root@iZ25dm0u2owZ src]# cd nginx-1.4.2
+
+[root@iZ25dm0u2owZ nginx-1.4.2]# ./configure --sbin-path=/usr/local/nginx/nginx \
+--conf-path=/usr/local/nginx/nginx.conf \
+--pid-path=/usr/local/nginx/nginx.pid \
+--with-http_ssl_module \
+--with-pcre=/usr/local/src/pcre-8.34 \
+--with-zlib=/usr/local/src/zlib-1.2.8 \
+--with-openssl=/usr/local/src/openssl-1.0.1c
+
+[root@iZ25dm0u2owZ src]# make
+
+[root@iZ25dm0u2owZ src]# make install
+
+
+
+
+
+
+
+
+

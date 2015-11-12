@@ -1,0 +1,11 @@
+[root@iZ25dm0u2owZ ~]# cd /
+
+[root@iZ25dm0u2owZ /]# mkdir softwarePackage
+
+[root@iZ25dm0u2owZ /]# mkdir app
+
+[root@iZ25dm0u2owZ /]# yum -y install gcc automake autoconf libtool make
+
+[root@iZ25dm0u2owZ /]# yum install gcc gcc-c++
+
+用SSH上传资源包到softwarePackage目录

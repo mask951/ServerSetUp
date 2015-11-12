@@ -1,0 +1,11 @@
+mysql>use mysql;
+mysql>update user set password=password('mask18610319517') where user='root'; 
+mysql>flush privileges;
+
+-------------------------------------------------------------------------
+
+ysql -u root -pvmware
+mysql>use mysql;
+mysql> grant all privileges on *.* to 'root'@'%' identified by 'mask18610319517' with grant option;
+mysql> flush privileges;
+mysql> 

@@ -1,0 +1,1 @@
+Æô¶¯ ./usr/local/memcached/bin/memcached -d -c 256 -m 32 -u root

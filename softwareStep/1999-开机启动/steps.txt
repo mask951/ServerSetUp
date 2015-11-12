@@ -1,0 +1,1 @@
+[root@iZ25dm0u2owZ ~]# chkconfig vsftpd on service vsftpd start

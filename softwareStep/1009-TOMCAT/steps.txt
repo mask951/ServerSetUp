@@ -1,0 +1,7 @@
+[root@iZ25dm0u2owZ /]# cp /softwarePackage/apache-tomcat-7.0.53.tar.gz /app/
+
+[root@iZ25dm0u2owZ /]# cd /app/
+
+[root@iZ25dm0u2owZ app]# tar -zxf apache-tomcat-7.0.53.tar.gz
+
+

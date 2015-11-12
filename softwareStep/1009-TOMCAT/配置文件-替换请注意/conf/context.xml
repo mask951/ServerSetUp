@@ -1,0 +1,13 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<Context>
+
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+	<Manager className="de.javakaffee.web.msm.MemcachedBackupSessionManager"  
+    memcachedNodes="n1:10.162.201.250:11211,n2:10.173.19.7:11211"  
+    sticky="false"  
+    sessionBackupAsync="false"  
+    lockingMode="uriPattern:/path1|/path2"  
+    requestUriIgnorePattern=".*\.(ico|png|gif|jpg|css|js)$"  
+    transcoderFactoryClass="de.javakaffee.web.msm.serializer.kryo.KryoTranscoderFactory" />
+</Context>

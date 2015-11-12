@@ -1,0 +1,11 @@
+[root@iZ25dm0u2owZ /]# yum install -y subversion
+
+[root@iZ25dm0u2owZ /]# mkdir svn
+
+[root@iZ25dm0u2owZ /]# svnadmin create /svn/Mnemosyne
+
+Ìæ»»ÅäÖÃÎÄ¼ş
+
+[root@iZ25dm0u2owZ /]# cd /svn/Mnemosyne/hooks
+
+[root@iZ25dm0u2owZ hooks]# chmod a+x pre-commit

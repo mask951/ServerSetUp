@@ -1,0 +1,4 @@
+默认账户	admin/admin123
+
+
+修改密码：右上角-》小三角-》profile-》Change Password

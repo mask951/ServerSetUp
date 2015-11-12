@@ -1,0 +1,5 @@
+[root@iZ25dm0u2owZ /]# cd /softwarePackage/
+
+[root@iZ25dm0u2owZ softwarePackage]# rpm -ivh jdk-7u51-linux-x64.rpm
+
+

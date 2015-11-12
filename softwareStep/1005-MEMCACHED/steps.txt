@@ -1,0 +1,39 @@
+[root@iZ25dm0u2owZ src]# cd /usr/local/src/
+
+[root@iZ25dm0u2owZ src]# cp /softwarePackage/libevent-2.1.3-alpha.tar.gz /usr/local/src/
+
+[root@iZ25dm0u2owZ src]# tar -zxvf libevent-2.1.3-alpha.tar.gz
+
+[root@iZ25dm0u2owZ src]# cd libevent-2.1.3-alpha
+
+[root@iZ25dm0u2owZ libevent-2.1.3-alpha]# ./configure
+
+[root@iZ25dm0u2owZ libevent-2.1.3-alpha]# make
+
+[root@iZ25dm0u2owZ libevent-2.1.3-alpha]# make install
+
+[root@iZ25dm0u2owZ src]# cd /usr/local/src/
+
+[root@iZ25dm0u2owZ src]# cp /softwarePackage/memcached-1.4.15.tar.gz /usr/local/src/
+
+[root@iZ25dm0u2owZ src]# tar -zxvf memcached-1.4.15.tar.gz
+
+[root@iZ25dm0u2owZ src]# cd memcached-1.4.15
+
+[root@iZ25dm0u2owZ memcached-1.4.15]# ./configure
+
+[root@iZ25dm0u2owZ memcached-1.4.15]# make
+
+[root@iZ25dm0u2owZ memcached-1.4.15]# make install
+
+[root@iZ25dm0u2owZ memcached-1.4.15]# ln -s /usr/local/lib/libevent-2.1.so.3 /lib/libevent-2.1.so.3 
+
+[root@iZ25dm0u2owZ memcached-1.4.15]# ldconfig -v
+
+
+
+
+
+
+
+
